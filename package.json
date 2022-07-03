@@ -21,7 +21,8 @@
     "react-scripts": "^4.0.3",
     "styled-components": "^5.3.5",
     "styled-reset": "^4.4.2",
-    "sweetalert": "^2.1.2"
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.19"
   },
   "scripts": {
     "start": "react-scripts start",
