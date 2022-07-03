@@ -19,7 +19,7 @@ function RegistersPage() {
   
 
     const getRegisters = () => {
-        const URL = `http://localhost:5000/extractos`;
+        const URL = `https://back-projeto-mywallet13.herokuapp.com/extractos`;
         const { token } = user;
 
         const config = {
@@ -51,7 +51,7 @@ function RegistersPage() {
     
     const logOut = () => {
         const { token } = user;
-        const URL = `http://localhost:5000/logout`;
+        const URL = `https://back-projeto-mywallet13.herokuapp.com/logout`;
 
         const config = {
             headers: {
@@ -75,7 +75,7 @@ function RegistersPage() {
         sendConfirm('warning', '', 'Quer remover esse registro?')
     .then(result => {
         if (result.isConfirmed) {
-            const URL = `http://localhost:5000/extractos/${id}`;
+            const URL = `https://back-projeto-mywallet13.herokuapp.com/extractos/${id}`;
 
             const config = {
                 headers: {

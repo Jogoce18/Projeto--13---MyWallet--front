@@ -26,7 +26,7 @@ export default function Login() {
             classNameLoading: 'input-disabled',
         });
 
-        const URL = "http://localhost:5000/signin";
+        const URL = "https://back-projeto-mywallet13.herokuapp.com/signin";
 
         axios
             .post(URL, { email: userData.email, password: userData.password })

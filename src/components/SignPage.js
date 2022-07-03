@@ -34,7 +34,7 @@ export default function SignPage() {
             classNameLoading: 'input-disabled',
         });
 
-        const URL = "http://localhost:5000/signup";
+        const URL = "https://back-projeto-mywallet13.herokuapp.com/signup";
 
         axios
             .post(URL, {

@@ -38,7 +38,7 @@ export default function Registerdeposit() {
       headers: { "Authorization": `Bearer ${user.token}`}
     }
     try {
-      await axios.post("http://localhost:5000/extractos", body, headers)
+      await axios.post("https://back-projeto-mywallet13.herokuapp.com/extractos", body, headers)
       .then(() => {
         setDataLoading({
             ...dataLoading,
