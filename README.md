@@ -33,9 +33,8 @@ The following tools and frameworks were used in the construction of the project:
 ## How to run
 
 1. Clone this repository
-2. Clone the back-end repository at https://github.com/kethllen/My_Wallet_Back
-3. Follow instructions to run back-end at https://github.com/kethllen/My_Wallet_Back
-4. Install front-end dependencies
+2. Clone the back-end repository at https://github.com/Jogoce18/Projeto--13---MyWallet--back
+3. Follow instructions to run back-end at https://github.com/Jogoce18/Projeto--13---MyWallet--back
 ```bash
 npm i
 ```
